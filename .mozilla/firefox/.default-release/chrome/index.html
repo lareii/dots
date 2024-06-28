@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./tailwind.js"></script>
+    <title>startpage</title>
+    <style>
+        @font-face {
+            font-family: "JetBrains";
+            src: url("./JetBrainsMono-Regular.ttf");
+        }
+    </style>
+    <script>
+        function search() {
+            const input = document.querySelector('input').value;
+            window.location.href = `https://www.google.com/search?q=${input}`;
+        }
+    </script>
+</head>
+<body>
+    <div class="flex flex-col gap-5 justify-center items-center h-screen bg-[#282828] text-[#ebdbb2] font-['JetBrains'] text-sm">
+        <div class="flex">
+            <img src="./firefox.png" class="h-10 mr-5">
+            <input placeholder="type something" type="text" class="bg-[#3c3836] rounded-l-lg w-96 outline-none px-3">
+            <div onclick="search()" class="flex items-center bg-[#b16286] rounded-r-lg px-3 cursor-pointer">search</div>
+        </div>
+        <div class="flex">
+            <a href="https://github.com">github</a> ・ <a href="https://discord.com/app">discord</a>
+            ・ <a href="https://youtube.com">youtube</a>
+        </div>
+    </div>
+</body>
+</html>
