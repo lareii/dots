@@ -17,6 +17,7 @@
     "editor.renderWhitespace": "all",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "'JetBrains Mono'",
+    "editor.fontLigatures": true,
     "editor.tabSize": 4,
     "editor.indentSize": "tabSize",
     "[vue]": {
@@ -25,5 +26,5 @@
     },
     "[html]": {
         "editor.tabSize": 2
-    }
+    },
 }
