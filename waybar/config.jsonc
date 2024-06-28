@@ -1,0 +1,28 @@
+{
+    "output": "eDP-1",
+
+    "layer": "top",
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    "height": 40,
+
+    "reload_style_on_change": true,
+
+    "include": ["~/.config/waybar/modules.jsonc"],
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "tray"
+    ]
+}

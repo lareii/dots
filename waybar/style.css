@@ -1,0 +1,60 @@
+* {
+    font-family: "JetBrains Mono";
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* modules left */
+#workspaces {
+    background-color: #282828;
+    border: 2px solid #ebdbb2;
+    border-radius: 10px;
+
+    margin-right: 5px;
+}
+#window {
+    background-color: #282828;
+    border: 2px solid #ebdbb2;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#clock {
+    background-color: #282828;
+    border: 2px solid #ebdbb2;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* modules right */
+#network,
+#bluetooth,
+#pulseaudio,
+#backlight,
+#battery {
+    background-color: #282828;
+    border: 2px solid #ebdbb2;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-right: 5px;
+}
+#tray {
+    background-color: #282828;
+    border: 2px solid #ebdbb2;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}

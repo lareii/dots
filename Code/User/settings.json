@@ -1,0 +1,29 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "telemetry.telemetryLevel": "off",
+    
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "all",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    }
+}

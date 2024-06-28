@@ -1,0 +1,64 @@
+{
+    // modules left
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "1": "エ",
+            "2": "ミ",
+            "3": "ル",
+            "4": "ハ",
+            "5": "ン"
+        },
+        "persistent_workspaces": {
+            "*": [1, 2, 3, 4, 5]
+        }
+    },
+    "hyprland/window": {
+        "icon": true,
+        "icon-size": 16,
+        "format": "{title}"
+    },
+
+    // modules center
+    "clock": {
+        "format":"{:%a %b %d ・ %H:%M}"
+    },
+
+    // modules right
+    "network": {
+		"format": " {bandwidthDownBits}   {bandwidthUpBits}",
+		"format-disconnected": "󰲛 ",
+        "format-disabled": "󰲛 ",
+		"interval": 1,
+		"interface": "wlp0s20f3"
+	},
+    "bluetooth": {
+        "format": "󰂲 off",
+        "format-on": "󰂯 on",
+        "format-connected": "󰂱 {device_alias}",
+        "format-disconnected": "󰂲 disconnected",
+        "interval": 1,
+        "on-click": "blueman-manager"
+    },
+    "pulseaudio": {
+		"format": " {volume}%",
+		"on-click": "pavucontrol",
+        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+	},
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-scroll-up": "brightnessctl s +5%",
+        "on-scroll-down": "brightnessctl s 5%-"
+    },
+    "battery": {
+        "format": "󰁹 {capacity}%",
+        "interval": 1
+    },
+    "tray": {
+        "spacing": 5
+    }
+}
