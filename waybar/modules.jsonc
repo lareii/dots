@@ -32,7 +32,9 @@
 		"format-disconnected": "󰲛 ",
         "format-disabled": "󰲛 ",
 		"interval": 1,
-		"interface": "wlp0s20f3"
+		"interface": "wlp0s20f3",
+        "on-click": "sh $HOME/.config/wofi/scripts/nmcli.sh",
+        "tooltip-format": "{essid}: {signalStrength}%"
 	},
     "bluetooth": {
         "format": "󰂲 off",
@@ -52,13 +54,14 @@
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
         "on-scroll-up": "brightnessctl s +5%",
-        "on-scroll-down": "brightnessctl s 5%-"
+        "on-scroll-down": "brightnessctl s 5%-",
+        "tooltip": false
     },
     "battery": {
         "format": "󰁹 {capacity}%",
         "interval": 1
     },
     "tray": {
-        "spacing": 5
+        "spacing": 7
     }
 }
