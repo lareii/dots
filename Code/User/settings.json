@@ -14,12 +14,13 @@
     },
 
     "editor.fontSize": 16,
-    "editor.renderWhitespace": "all",
-    "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.tabSize": 4,
     "editor.indentSize": "tabSize",
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar",
         "editor.tabSize": 2
