@@ -18,7 +18,9 @@
     "hyprland/window": {
         "icon": true,
         "icon-size": 16,
-        "format": "{title}"
+        "rewrite": {
+            "": "Desktop"
+        }
     },
 
     // modules center
