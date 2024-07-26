@@ -1,0 +1,12 @@
+import = [
+    "~/.config/alacritty/gruvbox.toml"
+]
+
+[window]
+padding = { x = 15, y = 15 }
+
+[font]
+normal = { family = "JetBrains Mono" }
+
+[cursor]
+style = { blinking = "On" }
