@@ -11,7 +11,6 @@
 
     "include": ["~/.config/waybar/modules.jsonc"],
     "modules-left": [
-        "hyprland/workspaces",
         "hyprland/window"
     ],
     "modules-center": [

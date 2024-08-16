@@ -1,20 +1,5 @@
 {
     // modules left
-    "hyprland/workspaces": {
-        "disable-scroll": true,
-        "on-click": "activate",
-        "format": "{icon}",
-        "format-icons": {
-            "1": "エ",
-            "2": "ミ",
-            "3": "ル",
-            "4": "ハ",
-            "5": "ン"
-        },
-        "persistent_workspaces": {
-            "*": [1, 2, 3, 4, 5]
-        }
-    },
     "hyprland/window": {
         "icon": true,
         "icon-size": 16,

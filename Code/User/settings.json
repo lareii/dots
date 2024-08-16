@@ -21,11 +21,7 @@
     "editor.indentSize": "tabSize",
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "all",
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar",
-        "editor.tabSize": 2
-    },
-    "[html]": {
-        "editor.tabSize": 2
+    "editor.unicodeHighlight.allowedLocales": {
+        "tr": true
     },
 }
