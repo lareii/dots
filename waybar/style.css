@@ -38,6 +38,8 @@ window#waybar {
     border: 2px solid #ebdbb2;
     border-radius: 10px;
 
+    margin-left: 5px;
+
     padding-left: 10px;
     padding-right: 10px;
 }
