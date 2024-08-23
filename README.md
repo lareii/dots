@@ -1,5 +1,5 @@
 # dots
-🐧 My linux configs with [Hyprland](https://hyprland.org/).
+🐧 My linux configs with [Hyprland](https://hyprland.org/) window manager.
 
 ## Preview
 ![](./.github/desktop.png)
